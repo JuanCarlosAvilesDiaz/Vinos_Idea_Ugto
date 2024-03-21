@@ -1,0 +1,23 @@
+body {
+    background: url(../img/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.boton1 {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    width:300px;
+    border-radius:3px;
+    border:1px solid #eee;
+    margin:20px auto;
+    padding: 5px;
+    
+}
+
+
+.contenedor {
+    width: 300px;
+}

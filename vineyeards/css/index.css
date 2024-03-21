@@ -1,0 +1,23 @@
+body{
+    background-image: url('../img/index.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.medircolor{
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(157, 153, 153, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(189, 189, 25, 0.634);
+}
+label{
+    color:white;
+}
+
+
+
