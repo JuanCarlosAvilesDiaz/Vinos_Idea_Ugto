@@ -1,0 +1,80 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    background-color: #708090;
+    color: #f5f5dc;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  h1.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+/* Estilos para la ventana flotante */
+.modal {
+  display: none; /* Ocultar ventana flotante por defecto */
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Z-index alto para que aparezca por encima de otros elementos */
+  left: 50%;
+  top: 50%;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto; /* Agregar scroll en caso de que la imagen sea muy grande */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9); /* Fondo negro semitransparente */
+  transform: scale(2.5);
+}
+
+/* Estilos para el botón */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Estilos para el contenido de la ventana flotante */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%; /* Tamaño del contenido de la ventana flotante */
+  max-width: 700px; /* Tamaño máximo de la imagen ampliada */
+  height: auto; /* Altura automática para mantener la proporción de la imagen */
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #228b22;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
